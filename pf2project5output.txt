@@ -1,0 +1,61 @@
+ipizarro@turing:~$ script pf2project5output.txt
+Script started, file is pf2project5output.txt
+groups: cannot find name for group ID 762800513
+ipizarro@turing:~$ g++ -o main.exe main.cpp priority_queue.cpp priority_queue.h
+ipizarro@turing:~$ ./main.exe
+Testing Insert
+Insert Ivette Pizarro high ok
+Insert Tiger woods high ok
+Insert Micheal Phelps low ok
+Insert Tiger woods low ok
+Insert Wayne Getzki high ok
+Insert lindsey Vonn low ok
+Insert Babe Ruth low ok
+Insert Emmit Ruth low ok
+Insert Tiger Woods high ok
+Insert Babe Ruth high ok
+
+Priority Queue after Insert
+High Priority Names: 
+Babe Ruth
+Tiger Woods
+Wayne Getzki
+Tiger woods
+Ivette Pizarro
+Low Priority Names: 
+Emmit Ruth
+Babe Ruth
+lindsey Vonn
+Tiger woods
+Micheal Phelps
+
+Testing Remove
+Remove Babe Ruth high ok
+Remove Tiger Woods high ok
+Remove Wayne Getzki high ok
+Remove Tiger woods high ok
+
+Priority Queue after Remove
+High Priority Names: 
+Ivette Pizarro
+Low Priority Names: 
+Emmit Ruth
+Babe Ruth
+lindsey Vonn
+Tiger woods
+Micheal Phelps
+
+Testing Remove
+Remove Ivette Pizarro high ok
+Remove Emmit Ruth low ok
+Remove Babe Ruth low ok
+Remove lindsey Vonn low ok
+Remove Tiger woods low ok
+
+Priority Queue after Remove
+High Priority Names: 
+Low Priority Names: 
+Micheal Phelps
+ipizarro@turing:~$ exit
+exit
+Script done, file is pf2project5output.txt
